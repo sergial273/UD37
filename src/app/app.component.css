@@ -1,0 +1,63 @@
+ody{
+    margin-left: 60px;
+    margin-top: 60px;
+    
+}
+
+span {
+  color: #fff;
+  padding: 16px;
+}
+
+input{
+    background-color: #aaa4a6;
+}
+.padding-reset {
+  padding-left: 0;
+  padding-right: 0;
+}
+.teaxtbox input[type="text"] {
+  width: 100%;
+  border: 1px solid #f1f1f1;
+  font-size: 18px;
+  font-weight: 700;
+  padding: 12px;
+}
+.teaxtbox input[type="text"]:focus {
+  outline: none;
+}
+.commonbutton input[type="submit"] {
+  padding: 8px;
+  background: #f2f2f2;
+  border: none;
+  font-size: 18px;
+  font-weight: 700;
+  width: 100%;
+  margin-top: 15px;
+  border-radius: 5px;
+}
+.conflict input[type="submit"] {
+  padding: 8px;
+  background: #f2f2f2;
+  border: none;
+  font-size: 18px;
+  font-weight: 700;
+  width: 100%;
+  margin-top: 15px;
+  border-radius: 5px;
+}
+.conflict input[type="submit"]:focus,
+.commonbutton input[type="submit"]:focus {
+  outline: none;
+}
+#del {
+  background: #f40057;
+  color: #fff;
+}
+#plus {
+  height: 97px;
+}
+#equal {
+  background: #80c683;
+  color: #fff;
+}
