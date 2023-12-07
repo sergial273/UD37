@@ -1,0 +1,30 @@
+<div class="container">
+  <form (submit)="sendDataToService()">
+    <div class="form-group">
+      <label for="nombre">Nombre</label>
+      <input type="text" class="form-control" id="nombre" name="nombre" [(ngModel)]="cliente.nombre" required>
+    </div>
+  
+    <div class="form-group">
+      <label for="cif">CIF</label>
+      <input type="text" class="form-control" id="cif" name="cif" [(ngModel)]="cliente.cif" required>
+    </div>
+  
+    <div class="form-group">
+      <label for="direccion">Dirección</label>
+      <input type="text" class="form-control" id="direccion" name="direccion" [(ngModel)]="cliente.direccion" required>
+    </div>
+  
+    <div class="form-group">
+      <label for="grupo">Grupo</label>
+      <select class="form-control" id="grupo" name="grupo" [(ngModel)]="cliente.grupo">
+        <option value="NaN">NaN</option>
+        <option value="Grupo1">Grupo1</option>
+        <option value="Grupo2">Grupo2</option>
+        <option value="Grupo3">Grupo3</option>
+      </select>
+    </div>
+  
+    <button type="submit" class="btn btn-primary mb-3 mt-3">Guardar</button>
+  </form>
+</div>
